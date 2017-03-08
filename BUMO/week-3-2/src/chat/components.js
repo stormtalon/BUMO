@@ -7,3 +7,5 @@ require('./root');
 require('./thread/thread-list');
 require('./thread/thread-preview');
 require('./thread/threads-popover');
+require('./side-panel');
+require('./bottom-panel');

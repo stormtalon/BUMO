@@ -1,14 +1,14 @@
 bottom-panel {
     position: absolute;
     right: 0px;
-    bottom: 0px;
-    height: 400px;
+    bottom: 100px;
+    height: 125;
     width: 100%;
     display: block;
-    background: white;
-    z-index: 3;
-    -webkit-transform: translateX(100%);
+    background: lightslategrey;
     -webkit-transition: 0.3s;
     border-left: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
+    left: 285;
+    top: 250;
 }

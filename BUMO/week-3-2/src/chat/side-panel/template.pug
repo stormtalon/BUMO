@@ -3,9 +3,11 @@ button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=fal
     span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
 h5 BUMO is an app which shuffles Spotify tracks to create random playlists. Login with Spotify to listen to full length tracks.
 
-button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Combine Genres
-    span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
-button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Login to Save Playlist
-    span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
-button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") About Us
-    span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
+
+div.buttonContainer
+    button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Combine Genres
+        span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
+    button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Login to Save Playlist
+        span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
+    button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") About Us
+        span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})

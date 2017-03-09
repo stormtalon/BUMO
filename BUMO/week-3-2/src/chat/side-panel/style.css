@@ -1,5 +1,16 @@
 side-panel {
     display: block;
-    height: 100%;
-    width: 280px;
+    height: 625px;
+    width: 285px;
+    background: lightgrey;
+    bottom: 270;
 }
+
+button {
+    display: block;
+    
+    
+    
+    
+    
+    }

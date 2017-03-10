@@ -1,5 +1,5 @@
 module.exports = class MenuController {
-    constructor(ChatService) {
+    constructor(ChatService, $scope) {
         ChatService.bind(ChatService.EventType.UPDATE, () => {
             this.count = ChatService.getUnreadCount();
         });
@@ -7,5 +7,9 @@ module.exports = class MenuController {
         ChatService.bind(ChatService.EventType.SET_ACTIVE_THREAD, () => {
             this.count = ChatService.getUnreadCount();
         });
+
+        $scope.doSomething = function(){
+            alert('beep');
+        }
     }
 }

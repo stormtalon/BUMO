@@ -2,7 +2,7 @@ h1 BUMO
 
 //button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Threads
     span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
-button(ng-click="popoverVisible=!popoverVisible" outer-click="popoverVisible=false" outer-click-exclude="popover") Shuffle!
+button(ng-click="doSomething()" outer-click="popoverVisible=false" outer-click-exclude="popover") Shuffle!
     span(ng-if="$ctrl.count") &nbsp;({{ $ctrl.count }})
 
 //threads-popover(id="popover" ng-class="{visible: popoverVisible}" ng-if="popoverVisible")

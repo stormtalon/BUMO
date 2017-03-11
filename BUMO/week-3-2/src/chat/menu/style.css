@@ -1,11 +1,11 @@
 menu {
-    position: relative;
+    position: block;
     height: 250px;
     background: #505050;
     color: white;
     padding: 10px;
     line-height: 40px;
-    left: 285px;
+    
 }
 
 /*#3a5795*/

@@ -1,9 +1,9 @@
 side-panel {
     display: block;
-    height: 585px;
-    width: 285px;
+    height: 75.3%;
+    width: 280px;
     background: lightgrey;
-    bottom: 270px;
+    top: -15px;
 }
 
 button {

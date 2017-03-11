@@ -2,7 +2,7 @@ table-panel {
     position: absolute;
     
     
-    width: 85%;
+    width: 100%;
     display: block;
     background: lightgray;
     -webkit-transition: 0.3s;

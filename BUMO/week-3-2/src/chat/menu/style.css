@@ -27,7 +27,7 @@ menu button {
     outline: none;
     border-radius: 5px;
     border: 1px solid #fff;
-    
+    width:10%;
 }
 
 menu button:hover {

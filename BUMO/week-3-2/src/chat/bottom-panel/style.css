@@ -1,14 +1,25 @@
 bottom-panel {
     position: absolute;
     right: 0px;
-    bottom: 0px;
-    height: 400px;
+    bottom: 100px;
+    height: 125px;
     width: 100%;
     display: block;
-    background: white;
-    z-index: 3;
-    -webkit-transform: translateX(100%);
+    background: lightslategrey;
     -webkit-transition: 0.3s;
     border-left: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
+    left: 285px;
+    top: 200px;
+}
+
+bottom-panel button{
+    display: inline-block;
+    background: #999;
+    color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border: 50px;
+    width: 100px;
+    left: 300px;
 }

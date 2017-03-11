@@ -1,5 +1,38 @@
 side-panel {
     display: block;
-    height: 100%;
-    width: 280px;
+    height: 585px;
+    width: 285px;
+    background: lightgrey;
+    bottom: 270px;
+}
+
+button {
+    display: block;
+    background: #999;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 50px;
+    width: 250px;
+    top: 20px;
+    left: 7px;
+    }
+    
+.buttonContainer { 
+    top: 250px; 
+    }
+
+h5{
+    display: block;
+    font-size: 1.05em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight:bold;
+    font-style: italic;
+    top: 50px;
+    color: darkslategrey;
+    left: 10px;
+
 }

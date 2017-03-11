@@ -5,6 +5,7 @@ menu {
     color: white;
     padding: 10px;
     line-height: 40px;
+    left: 285px;
 }
 
 /*#3a5795*/
@@ -24,6 +25,7 @@ menu button {
     outline: none;
     border-radius: 5px;
     border: 1px solid #fff;
+    
 }
 
 menu button:hover {

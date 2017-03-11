@@ -1,16 +1,16 @@
 bottom-panel {
     position: absolute;
-    right: 0px;
-    height: 125px;
-    width: 85.2%;
+    
+    height: 10%;
+    width: 85%;
     display: block;
     background: lightslategrey;
     -webkit-transition: 0.3s;
     border-left: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     
-    bottom: 0px;
-    left: 280px;
+    bottom:0px;
+    right:0px;
 }
 
 bottom-panel button{
@@ -20,6 +20,6 @@ bottom-panel button{
     margin: 20px;
     padding: 10px;
     border: 50px;
-    width: 100px;
-    left: 300px;
+    
+    text-align: center;
 }

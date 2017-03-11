@@ -20,3 +20,5 @@ body {
     font-weight: 300;
     letter-spacing: 0.4px;
 }
+
+html, body { overflow: hidden; position: absolute; height: 100%; width: 100% }

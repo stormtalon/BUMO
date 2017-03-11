@@ -1,9 +1,11 @@
+
+
 side-panel {
-    display: block;
-    height: 75.3%;
-    width: 280px;
+    position: absolute; 
+    width: 15%; 
     background: lightgrey;
-    top: -15px;
+    height: 100%;
+    
 }
 
 button {

@@ -18,25 +18,18 @@ menu h1 {
 }
 
 menu button {
-    background: none;
-    color: #fff;
     display: block;
-    cursor: pointer;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    width:5%;
-    margin: 5%;
-    padding: 5%;
-    border: 5%;
-    /*display: block;
     background: #999;
     color: #fff;
-    margin: 5%;
     padding: 5%;
     border: 5%;
-    width: 10%;
-    bottom: 10%;*/
+    width: 20%;
+    line-height: 1%;
+    bottom: 60%;
+    left: 75%;
+
+
+
     
 }
 

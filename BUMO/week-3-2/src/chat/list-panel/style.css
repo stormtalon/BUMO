@@ -1,15 +1,16 @@
 list-panel {
     position: absolute;
     
-    height: 10%;
+    
     width: 85%;
     display: block;
-    background: lightslategrey;
+    background: lightgray;
     -webkit-transition: 0.3s;
     border-left: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     
-    bottom:0px;
-    right:0px;
+    top:25%;
+    height:65%;
+    left:15%;
 }
 

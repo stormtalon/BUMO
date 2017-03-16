@@ -10,6 +10,8 @@ angular
         $httpBackend.whenGET('/api/updates').respond(mockBackend.getUpdates);
 
         $httpBackend.whenGET('/api/owner').respond(mockBackend.getOwner);
+
+        $httpBackend.whenGET('/api/playlists/1').respond(mockBackend.getPlaylist);
     });
 
 require('./chat/services');

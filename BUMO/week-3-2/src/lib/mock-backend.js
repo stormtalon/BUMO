@@ -1028,6 +1028,15 @@ var allMessages = 'How promotion excellent curiosity yet attempted happiness. Ga
 var messages = allMessages.split('. ');
 var updates = [];
 
+var playlist = [
+    { name: 'Track 1', artist: 'Artist 1', album: 'Album 1', length: 300 },
+    { name: 'Track 2', artist: 'Artist 2', album: 'Album 2', length: 301 },
+    { name: 'Track 3', artist: 'Artist 3', album: 'Album 3', length: 302 },
+    { name: 'Track 4', artist: 'Artist 4', album: 'Album 4', length: 303 },
+    { name: 'Track 5', artist: 'Artist 5', album: 'Album 5', length: 304 },
+    { name: 'Track 6', artist: 'Artist 6', album: 'Album 6', length: 305 },
+];
+
 function randomUpdate() {
     var threadsLength = threads.length;
     var randomThread = threads[Math.floor(Math.random() * threadsLength)];
@@ -1080,10 +1089,13 @@ getUpdates = () => {
 
 getOwner = () => [200, owner];
 
+getPlaylist = () => [200, playlist];
+
 module.exports = {
     getThreads,
     getUpdates,
-    getOwner
+    getOwner,
+    getPlaylist
 };
 
 window.threads = threads;

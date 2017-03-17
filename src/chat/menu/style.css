@@ -4,9 +4,9 @@ menu {
     background: #505050;
     color: white;
     padding: 10px;
-    right:0px;
-    width:85%;
-    top:-20px;
+    right: 0px;
+    width: 85%;
+    top: -20px;
     
 }
 
@@ -18,26 +18,25 @@ menu h1 {
 }
 
 menu button {
+    
     display: block;
     background: #999;
     color: #fff;
+    margin: 5%;
     padding: 5%;
     border: 5%;
     width: 20%;
-    line-height: 1%;
-    bottom: 60%;
-    left: 75%;
-
-
-
     
-}
+    
+    }
+
+.menubuttonContainer { 
+    left: 0;
+    position: block;
+    width: 600;
+    top: 0;
+    height: 100px;
+    }
 
 
 
-menu button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-menu button:active {
-    background-color: rgba(255, 255, 255, 0.3);
-}

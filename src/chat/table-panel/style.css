@@ -9,8 +9,9 @@ table-panel {
     border-left: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     
-    top:25%;
-    height:65%;
-    left:15%;
+    top: 24%;
+    height: 65%;
+    left: 15%;
     overflow: scroll;
+    
 }

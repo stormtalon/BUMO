@@ -22,7 +22,9 @@ button {
     }
     
 .buttonContainer { 
-    top: 40%; 
+    bottom: 0;
+    position: absolute;
+    width: 100%;
     }
 
 h5{

@@ -80,6 +80,31 @@ var playlist = [
     { name: 'Track 6', artist: 'Artist 6', album: 'Album 6', length: 305 },
 ];
 
+var rockList = [
+    { name: 'Paint It Black', artist: 'The Rolling Stones', album: 'The Rolling Stones', length: 3.30 },
+    { name: 'Money', artist: 'Pink Floyd', album: 'The Dark Side Of The Moon', length: 6.23 },
+    { name: 'Communique', artist: 'Dire Straits', album: 'The Best Of Motorhead', length: 2.46 },
+    { name: 'Bohemian Rhapsody', artist: 'Queen', album: 'A Night At The Opera', length: 5.54 },
+    { name: 'Baby I\'m Gonna Leave You', artist: 'Led Zeppelin', album: 'Led Zeppelin', length: 6.41 },
+];
+
+var popList = [
+    { name: 'Selfish', artist: 'Future, Rihanna', album: 'Stay', length: 3.30 },
+    { name: 'Passionfruit ', artist: 'Drake', album: 'More Life', length: 4.59 },
+    { name: 'Shape Of You', artist: 'Ed Sheeran', album: 'Divide', length: 3.54 },
+    { name: 'Believer', artist: 'Imagine Dragons', album: 'Believer', length: 3.24 },
+    { name: 'Green Light', artist: 'Lorde', album: 'Green Light', length: 3.55 },
+];
+
+var metalList = [
+    { name: 'The Number Of The Beast', artist: 'Iron Maiden', album: 'The Number Of The Beast', length: 4.51 },
+    { name: 'Ghost Of Perdition', artist: 'Opeth', album: 'Ghost Reveries', length: 10.29 },
+    { name: 'Lover\'s Grief', artist: 'Empyrium', album: 'Songs of Moors and Misty Fields', length: 9.12 },
+    { name: 'Learning To Live', artist: 'Dream Theater', album: 'Images And Words', length: 11.30 },
+    { name: 'Watching Over Me', artist: 'Iced Earth', album: 'Something Wicked This Way Comes', length: 4.29 },
+];
+
+
 function randomUpdate() {
     var threadsLength = threads.length;
     var randomThread = threads[Math.floor(Math.random() * threadsLength)];
@@ -106,12 +131,12 @@ function getRandomMessage() {
 function getRandomMessages() {
     var length = Math.floor(Math.random() * 10 + 10);
 
-    return new Array(length).join().split('').map(function() {
+    return new Array(length).join().split('').map(function () {
         return getRandomMessage();
     });
 }
 
-threads = threads.map(function(thread) {
+threads = threads.map(function (thread) {
     thread.messages = getRandomMessages();
     thread.id = thread.user.username;
 

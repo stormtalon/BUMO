@@ -1,20 +1,20 @@
 class PlaylistRepository {
     constructor($http, $timeout, $q) {
-        var lazyResponse = function(promise, duration) {
+        var lazyResponse = function (promise, duration) {
             duration = duration || 300;
 
-            return $q(function(resolve) {
-                $timeout(function() {
+            return $q(function (resolve) {
+                $timeout(function () {
                     promise.then(resolve);
                 }, duration);
             });
         };
 
-        this.getPlaylist = function(id) {
-            return lazyResponse($http.get('/api/playlists/' + id));
+        this.getPlaylist = function (playlist) {
+            return lazyResponse($http.get('/api/playlists/' + playlist));
         };
 
-        this.getPlaylists = function() {
+        this.getPlaylists = function () {
             return lazyResponse($http.get('/api/playlists'));
         };
     }

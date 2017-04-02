@@ -11,9 +11,15 @@ angular
 
         $httpBackend.whenGET('/api/owner').respond(mockBackend.getOwner);
 
-        $httpBackend.whenGET('/api/playlists/1').respond(mockBackend.getPlaylist);
+        $httpBackend.whenGET('/api/playlists/rock').respond(mockBackend.getPlaylist('rockList'));
+
+        $httpBackend.whenGET('/api/playlists/pop').respond(mockBackend.getPlaylist('popList'));
+
+        $httpBackend.whenGET('/api/playlists/metal').respond(mockBackend.getPlaylist('metalList'));
+        
     });
 
 require('./chat/services');
 require('./chat/components');
+
 

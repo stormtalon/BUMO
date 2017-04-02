@@ -7,10 +7,9 @@ menu {
     right: 0px;
     width: 85%;
     top: -20px;
-    
+    layout: flow;
+    display: inline-block
 }
-
-/*#3a5795*/
 
 menu h1 {
     font-weight: 300;
@@ -19,7 +18,7 @@ menu h1 {
 
 menu button {
     
-    display: block;
+    display: absolute;
     background: #999;
     color: #fff;
     margin: 5%;
@@ -36,7 +35,12 @@ menu button {
     width: 600;
     top: 0;
     height: 100px;
+    display: inline-block    
     }
 
-
+select {
+    display: block;
+    margin: 1%;
+       
+}
 

@@ -1,6 +1,12 @@
 h1 BUMO
 div.menubuttonContainer
-    button(ng-click="$ctrl.shuffle()") Shuffle!
+    button(ng-click="$ctrl.shuffle(playlist)") Shuffle! 
 
+
+<select ng-model="playlist">
+    <option ng-click="rock">Rock</option>
+    <option value="pop">Pop</option>
+    <option value="metal">Metal</option>
+</select>
 
 

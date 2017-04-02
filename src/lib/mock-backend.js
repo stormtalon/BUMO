@@ -157,7 +157,15 @@ getUpdates = () => {
 
 getOwner = () => [200, owner];
 
-getPlaylist = () => [200, playlist];
+//getPlaylist = () => [200, playlist];
+
+
+
+function getPlaylist (playlist) {
+    
+    return [200, this.playlist];
+
+}
 
 module.exports = {
     getThreads,

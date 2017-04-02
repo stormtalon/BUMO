@@ -11,9 +11,9 @@ class PlaylistService extends EventEmitter {
         return this.playlistRepository.getPlaylist(id);
     }
 
-    shuffle() {
-        this.playlistRepository.getPlaylist(1).then(response => {
-            this.trigger('shuffle', response.data.slice(1));
+    shuffle(playlist) {
+        this.playlistRepository.getPlaylist(playlist).then(response => {
+            this.trigger('shuffle', response.data);
         });
     }
 }

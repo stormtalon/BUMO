@@ -10,8 +10,7 @@ module.exports = class MenuController {
             this.count = ChatService.getUnreadCount();
         });
     }
-
-    shuffle() {
-        this.playlistService.shuffle();
+    shuffle(playlist) {
+        this.playlistService.shuffle(playlist);
     }
 }
